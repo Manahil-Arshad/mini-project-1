@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+}
+#nav{
+    background-color: #ffffff29;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+
+}
+#nav :hover{
+    color: rgba(29, 2, 80, 0.651);
+    transition: 1s;
+    /* border-bottom: 1vmax black; */
+    box-sizing: border-box;
+    font-size: 1vmax;
+    font-weight: 1000;
+    /* border: 1vmax solid black; */
+    
+    padding-top: 1vmax;
+
+}
+.nleft{
+    display: flex;
+    gap: 30px;
+}
+#nav a{
+    display: inline-block;
+    font-weight: 800;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+
+}
+#nav .centertag{
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%,-50%);
+}
+#hero{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* height: 100px; */
+    margin-top: 15vmax;
+    padding:20px 10% ;
+    /* background-color: red; */
+}
+#sustain{
+    width:15vmax ;
+}
+#sustain p{
+    font-size: 12px;
+    margin: 10px 0;
+    opacity: .5;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+#sustain #susimagewraper{
+    width: 100%;
+    height: 20vmax;
+    /* background-color: red; */
+}
+#susimagewraper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#cutural{
+    width: 25vmax;
+    min-height: 38vmax;
+    /* background-color: rgb(172, 138, 138); */
+    position: relative;
+}
+/* #imagentext{
+    background-color: red;
+} */
+#cutural img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover ;
+}
+#cutural p{
+    margin-top: 30px;
+    /* position: absolute;
+    line-height: 1.3; */
+    font-size: 1.3vmax;
+    /* top: 105%; */
+    /* letter-spacing: -.7vmax; */
+    width: 40%;
+}
+#cutural h1{
+    letter-spacing: -.3vmax;
+    font-size: 6vmin;
+    font-weight: 400;
+    line-height: 1;
+}
+#cutural #headings{
+    top: -22%;
+    left: -20%;
+    position: absolute;
+   
+}
+#visit{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#visit h3{
+    color: black;
+    font-weight: 400;
+
+}
+#circle-v{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3vmax;
+    height: 3vmax;
+    /* background-color: aqua; */
+    border-radius: 50%;
+    border: 1px solid black;
+}
+#circle-v i {
+    color: rgb(15, 13, 13);
+}
+#motive{
+    margin-top: 7vmax;
+    padding: 3vmax 130px;
+    display: flex;
+    justify-content: space-between;
+}
+#motive span{
+    border-radius: 100px;
+    display: inline-block;
+    /* width: 120px;
+    height: 50px; */
+    /* margin: 0 10px; */
+    /* background-color: red; */
+    margin: 0 13px;
+    margin-bottom: -12.5px;
+}
+#motive p{
+    /* font-weight: 400; */
+    letter-spacing: -.12vmax;
+    line-height: 1.7;
+    position: relative;
+    right: 0;
+    text-align: right;
+    width: 80%;
+    font-size: 2.1vmax;
+}
+#one{
+    width: 80px;
+    height: 50px;
+    background-image: url(AI\ women\ holding\ bags.jpg);
+    background-size: cover;
+    background-position: 0% 30%;
+    box-shadow: 4px 4px 8px pink;
+}
+#span2{
+    width: 130px;
+    height: 60px;
+    background-image: url(bird\ couple.jpg);
+    background-size: cover;
+    background-position: 0% 20%;
+    box-shadow: 4px 4px 8px rgb(238, 4, 43);
+}
+#span3{
+    width: 80px;
+    height: 50px;
+    background-image: url(buteerfly\ glas.jpg);
+    background-size: cover;
+    background-position: 0% 60%;
+    box-shadow: 4px 4px 8px orange;
+}
+#pictures{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8vmax;
+    padding: 3vmax;
+    padding-left: 14vmax;
+    padding-right: 12vmax;
+}
+#firstpic{
+    width: 17vmax;
+}
+#firstpic #picimg{
+    width: 100%;
+    height: 24vmax;
+    margin-bottom: 1vmax;
+    /* background-color: red; */
+}
+#firstpic h1{
+    letter-spacing: -.1vmax;
+    font-weight: 100;
+    font-size: 2vmax;
+}
+#firstpic p,#secpic p{
+    opacity: 0.8;
+    font-size: 1vmax;
+    letter-spacing: -.015vmax;
+    line-height: 1;
+    margin-top: 10px;
+}
+#picimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+#secpic #picimg{
+    width: 100%;
+    height: 37vmax;
+    margin-bottom: 1vmax;
+    /* background-color: red; */
+}
+#secpic h1{
+    letter-spacing: -.1vmax;
+    font-weight: 100;
+    font-size: 2vmax;
+}
+#secpic p{
+    opacity: 0.8;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: right;
+    
+}
+#secpic{
+    width: 25vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+#banner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 8vmax;
+}
+#bimg{
+    width: 65%;
+    height: 60vh;
+    /* background-color: red; */
+}
+#bimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* object-position: 0% 70%; */
+}
+#btext{
+    width: 35%;
+    padding: 0 3vmax;
+}
+#btext h1{
+    font-size: 2.8vmax;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: -.15vmax;
+}
+#btext p{
+    margin-top: 20px;
+    width: 60%;
+    font-size: 1vmax;
+}
+#future{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+#future video{
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    /* height: 100%; */
+}
+#ftext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 9999;
+    background-color: #fff;
+    padding: 1vw 3vw;
+    border-radius: 10px;
+}
+#ftext button{
+    padding: .8vw 1.7vw;
+    font-size: .6vw;
+    font-weight: 700;
+    border-radius: 100px;
+    background-color: #fff;
+    border: 1px solid #5e5e5e;
+    color: #6f6f6f;
+
+}
+#future #ftext:hover{
+    background: transparent;
+    color: aqua;
+    cursor: pointer;
+}
+/* #ftext button :hover{
+    color: aqua;
+    background: transparent;
+} */
+#future video{
+    margin-top: 9vmax;
+}
+/* .footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+
+    margin-top: 20px;
+    font-weight: 600;
+
+
+} */
+#sustain #susimagewraper :hover{
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 1s;
+    box-shadow: 6px 6px 12px rgb(63, 71, 182);
+    
+}
+#cutural #imagentext :hover{
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 1s;
+    box-shadow: 6px 6px 12px rgb(219, 62, 198);
+}
+#visit :hover{
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 1s;
+    box-shadow: 6px 6px 12px rgb(171, 231, 6);
+}
+#pictures #firstpic #picimg :hover{
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 15px;
+    box-shadow: 6px 6px 12px rgba(231, 6, 220, 0.288);
+}
+#pictures #secpic #picimg :hover{
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 15px;
+    box-shadow: 6px 6px 12px rgba(2, 85, 57, 0.596);
+}
+#banner #bimg :hover{
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 15px;
+    box-shadow: 12px 6px 12px chocolate;
+}
+/* website 2 css end */
+
+/* ------------------------------ */
+
+/* about us css start */
+
+#Portfolio{
+    /* margin-top: -15px; */
+height: 20px;
+width: 100%;
+border: 40px solid rgba(2, 6, 53, 0.579);
+}
+#Portfolio h1{
+    line-height:1vh;
+    text-align: center;
+}
+#Portfolio i{
+    padding-right: 90%;
+    font-size: 60px;
+    line-height: 1vh;
+    padding-bottom: 20px;
+    color: rgba(6, 6, 55, 0.873);
+}
+.abtportfolio{
+    height: 30px;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    padding-left: 3%;
+}
+.portlist{
+    margin-left: 8%;
+    margin-top: 5%;
+    height: 60vh;
+    width: 20%;
+    /* border: 2px solid black; */
+}
+/* .mainptf{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0%;
+} */
+.portlist a{
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    color: blue;
+}
+.headptf{
+    height: 100vh;
+    width: 53%;
+    /* border: 2px solid black; */
+    margin-left: 35%;
+    margin-top: -29%;
+
+}
+.headptf h1{
+    font-family:sans-serif;
+    font-size : 400;
+    line-height: -1vh;
+    letter-spacing: 2px;
+}
+.headptf p{
+    color: rgba(2, 2, 52, 0.903);
+    line-height: 5vh;;
+}
+.headptf h2{
+    color: rgba(9, 9, 69, 0.758);
+    text-decoration: underline;
+}
+.stylepara p{
+    color: rgba(1, 1, 60, 0.769);
+}
+/* .abtfooter p{
+    font-size: 600;
+    color: black;
+} */
+
+/* -------------footer---------- */
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+
+	background-color:#412702d4;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
